@@ -30,22 +30,44 @@
 
 
 ## 기술 스택 & 사용한 모델 (임베딩 모델, LLM)
+
     python
     llama2 70b
     bge-m3
     faiss
-    streamlit
+    streamlit 
+
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+
+<img src="https://img.shields.io/badge/streamlit-#FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
 
 
 ## 시스템 아키텍처
 
+    graph TD
+      A[사용자: Streamlit UI] --> B[백엔드: ]
+      B --> C[LLM: LLaMA2 (70B) ]
+      B --> D[임베딩 모델: ]
+      D --> E[VectorDB: FAISS / Chroma]
+      C --> F[챗봇 응답 / 학습 추천]
+
 
 ## WBS
+
+| 일시 | 작업 항목 | 
+| --- | --- | 
+| 5월 12일 | 기능 구조 설계, 데이터 수집 | 
+| 5월 13일 |  | 
+| 5월 14일 |  | 
+| 5월 15일 | streamlit, readme 작성 | 
 
 
 ## 요구사항 명세서
 
-
+1. **게임 룰 문서 수집 및 청크화**
+    - 각 보드게임별 원본 룰 문서(텍스트) 확보
+    - 섹션별(구성품, 목적, 준비, 진행 순서, 행동, 예외 상황, 종료 조건, 확장팩 등)로 200~400 토큰 단위 분할
+    - 메타데이터(`game_id`, `section`, `priority`) 부여
 
 
 ## 수집한 데이터 및 전처리 요약
@@ -68,7 +90,10 @@
 
 
 ## 한 줄 회고
-    - 
-    - 
-    - 
-    - 
+
+| 김정원 |  | 
+| --- | --- | 
+| **이민정** |  | 
+| **정민호** |  | 
+| **황준호** |  | 
+
