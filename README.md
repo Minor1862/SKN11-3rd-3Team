@@ -6,10 +6,11 @@
     
 - 팀원 소개
 
- 
-    
+
+|  |  |  |  |
+|---|---|---|---|   
 |[김정원](https://github.com/Kimjeongwon12)|[이민정](https://github.com/minjung2266)|[정민호](https://github.com/Minor1862)|[Down황](https://github.com/junoaplus) |
-   |---|---|---|---|
+
 
 
 
@@ -38,8 +39,8 @@
     streamlit 
 
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
 
-<img src="https://img.shields.io/badge/streamlit-#FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
 
 
 ## 시스템 아키텍처
